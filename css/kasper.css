@@ -572,7 +572,12 @@ header .form i{
     font-weight: normal;
     margin: 0 0 30px;
 }
-
+@media (max-width:767px) {
+    .video .text h2{
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
 
 .video .text p{
     margin-bottom: 30px;
