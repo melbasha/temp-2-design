@@ -653,6 +653,7 @@ header .form i{
 @media (max-width:767px) {
     .states .box{
         flex-basis: 100%;
+        border-bottom: 1px solid var(--main-color);
     }
 }
 
@@ -688,4 +689,148 @@ header .form i{
 
 .states .box p{
          font-size: 14px;
+}
+
+
+.our-skill{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+     
+}
+
+.our-skill .container{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+}
+
+@media (min-width:769px) {
+    .our-skill .container > div {
+        flex-basis: 45%;
+    }
+}
+
+.our-skill .container > div > h3{
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.our-skill .container > div > p{
+    color: #777;
+    line-height: 2;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.our-skill .testemonials .content{
+     display: flex;
+     align-items:center;
+     margin-bottom: 30px;
+}
+
+
+.our-skill .testemonials .content img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+@media (max-width:767px) {
+
+   
+.our-skill .testemonials .content{
+         flex-direction: column;
+         text-align: center;
+}    
+
+.our-skill .testemonials .content img{
+             margin: 0 auto 25px;
+
+       }
+    
+}
+
+
+.our-skill .testemonials .content .text{
+    border-bottom: 1px solid #ccc;
+    line-height: 1.8;
+}
+
+.our-skill .testemonials .content .text p{
+    color: #777;
+    font-size: 14px;
+    text-align: right;
+    margin: 5px 0 15px;
+}
+
+.our-skill .testemonials .bullets{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+
+
+.our-skill .testemonials .bullets li{
+    border: 1px solid #ccc;
+    width:  14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.our-skill .testemonials .bullets li.active{
+     background-color: var(--main-color);
+}
+
+.our-skill .skill .prog-holder{
+    margin-bottom: 40px;
+}
+
+.our-skill .skill .prog-holder h4{
+    font-weight: normal;
+    text-transform: uppercase;
+    margin:15px;
+}
+
+.our-skill .skill .prog-holder .prog{
+    background-color: #dedadc;
+    height: 30px;
+}
+
+.our-skill .skill .prog-holder .prog span{
+    position: relative;
+    background-color: var(--main-color);
+    height: 100%;
+    display: block;
+}
+
+.our-skill .skill .prog-holder .prog span::before{
+     position: absolute;
+     content: attr(data-progress);
+     top: -40px;
+     right: -18px;
+     background-color: black;
+     color: white;
+     width: 40px;
+     text-align: center;
+     padding: 4px 0;
+     text-align: center;
+     border-radius: 5px;
+
+}
+
+.our-skill .skill .prog-holder .prog span::after{
+     position: absolute;
+     content: '';
+     border-style: solid;
+     border-width: 8px;
+     border-color: black transparent transparent transparent;
+     right: -8px;
+     top: -15px;
 }
