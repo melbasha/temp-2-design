@@ -530,11 +530,7 @@ header .form i{
     text-decoration: none;
 }
 
-.more:hover{
-    font-size: 25px;
-    transition: .3s;
-    border-radius: 50%;
-}
+
 
 
 .video{
@@ -590,6 +586,7 @@ header .form i{
     padding: 10px 20px;
     color: white;
     text-transform: uppercase;
+    border-radius: 5px;
 
 }
 
