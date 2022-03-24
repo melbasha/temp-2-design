@@ -653,7 +653,7 @@ header .form i{
 @media (max-width:767px) {
     .states .box{
         flex-basis: 100%;
-        border-bottom: 1px solid var(--main-color);
+        border-bottom: 5px solid black;
     }
 }
 
