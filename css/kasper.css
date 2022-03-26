@@ -1018,7 +1018,6 @@ header .form i{
     padding: 20px 20px 20px 60px;
     caret-color: var(--main-color);
     color: white;
-    width:calc(100% - 130px);
     border-right: none;
 }
 
@@ -1028,7 +1027,6 @@ header .form i{
     text-transform: uppercase;
     padding: 10px 20px;
     border-left: none;
-    width: 130px;
 
 }
 
@@ -1059,6 +1057,17 @@ header .form i{
     .subscribe .container p{
         margin-top: 50px;
     }
+
+    .subscribe  .container  form input[type="email"]{
+        width:calc(100% - 130px);
+
+    }
+
+    .subscribe  .container  form input[type="submit"]{
+        width:130px
+
+    }
+    
 
    
 
