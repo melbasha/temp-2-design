@@ -1050,6 +1050,7 @@ header .form i{
 
 
 @media (max-width:767px) {
+
     .subscribe .container{
         flex-direction: column;
     }
@@ -1067,9 +1068,6 @@ header .form i{
         width:130px
 
     }
-    
-
-   
 
 }
 
