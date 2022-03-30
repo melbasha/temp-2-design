@@ -1071,3 +1071,88 @@ header .form i{
 
 }
 
+
+.contact{
+    padding-bottom: var(--section-padding);
+}
+
+.contact .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .content form{
+       flex-basis: 70%;
+}
+
+.contact .content .main-input{
+        padding: 20px;
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+}
+
+.contact .content textarea.main-input{
+     height: 200px;
+}
+
+.contact .content form input[type="submit"]{
+      background-color: var(--main-color); 
+      border: none;
+      padding: 20px;
+      display: flex;
+      margin-left: auto;
+      color: white;
+      text-transform: uppercase;
+      cursor: pointer;   
+
+}
+
+.contact .content .info{
+     flex-basis: 25%;
+}
+
+.contact .content .info h4{
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 18px;
+      margin-bottom: 30px;
+}
+
+.contact .content .info .phone{
+    display: block;
+    margin-bottom: 10px;
+    color: #777;
+
+}
+
+.contact .content .info h4:nth-of-type(2){
+    margin-top: 80px;
+
+}
+
+.contact .content .info address{
+    color: #777;
+    line-height: 1.75;
+}
+
+@media (max-width:767px) {
+    .contact .content{
+        flex-direction: column;
+    }
+    .contact .content .info{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .contact .content form input[type="submit"]{
+        display: flex;
+        margin: auto;
+    }
+
+    .contact .content .info h4:nth-of-type(2){
+         margin-top: 30px;
+    }
+}
